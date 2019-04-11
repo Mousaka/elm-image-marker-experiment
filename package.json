@@ -1,0 +1,21 @@
+{
+  "name": "canvas-experiment",
+  "version": "1.0.0",
+  "description": "Stockholm Elm - Catchy Elm meetup title",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Intermediate/Advanced",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {
+    "elm-format": "^0.8.1",
+    "elm-hot": "^1.0.1",
+    "node-elm-compiler": "^5.0.3"
+  }
+}
